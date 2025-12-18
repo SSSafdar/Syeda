@@ -2275,6 +2275,17 @@ input, select, textarea {
 				text-align: center;
 			}
 
+		.icon.major i {
+    		display: inline-block;
+				font-size: 3rem !important;
+				width: 2.25em;
+				height: 2.25em;
+				line-height: 2.2em;
+				border-radius: 100%;
+				border: solid 1px  rgba(99, 99, 99, 0.25);
+				text-align: center;
+		}
+
 		.icon.alt {
 			display: inline-block;
 			border: solid 1px;
@@ -2635,6 +2646,12 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+
+	section {
+    clear: both;
+}
+
+
 
 	header.major {
 		margin-bottom: 3em;
